@@ -88,7 +88,9 @@ extension FirstViewController: UITextFieldDelegate{
     }
     
     // 화면 전환
+    /*
     func textFieldDidEndEditing(_ textField: UITextField) {
         pushToSecondVC()
     }
+    */
 }
