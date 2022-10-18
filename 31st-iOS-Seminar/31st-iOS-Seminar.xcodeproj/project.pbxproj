@@ -13,6 +13,8 @@
 		03D27B6928FB171000108CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D27B6728FB171000108CA6 /* Main.storyboard */; };
 		03D27B6B28FB171100108CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D27B6A28FB171100108CA6 /* Assets.xcassets */; };
 		03D27B6E28FB171100108CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D27B6C28FB171100108CA6 /* LaunchScreen.storyboard */; };
+		03D27B7628FB199400108CA6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D27B7528FB199400108CA6 /* FirstViewController.swift */; };
+		03D27B7828FB19B600108CA6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D27B7728FB19B600108CA6 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		03D27B6A28FB171100108CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D27B6D28FB171100108CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D27B6F28FB171100108CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D27B7528FB199400108CA6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		03D27B7728FB19B600108CA6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037349F028FE2195008F311F /* 1st-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				03D27B6528FB171000108CA6 /* ViewController.swift */,
+				03D27B7528FB199400108CA6 /* FirstViewController.swift */,
+				03D27B7728FB19B600108CA6 /* SecondViewController.swift */,
+			);
+			path = "1st-Seminar";
+			sourceTree = "<group>";
+		};
 		03D27B5528FB171000108CA6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		03D27B6028FB171000108CA6 /* 31st-iOS-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				037349F028FE2195008F311F /* 1st-Seminar */,
 				03D27B6128FB171000108CA6 /* AppDelegate.swift */,
 				03D27B6328FB171000108CA6 /* SceneDelegate.swift */,
-				03D27B6528FB171000108CA6 /* ViewController.swift */,
 				03D27B6728FB171000108CA6 /* Main.storyboard */,
 				03D27B6A28FB171100108CA6 /* Assets.xcassets */,
 				03D27B6C28FB171100108CA6 /* LaunchScreen.storyboard */,
@@ -141,6 +155,8 @@
 				03D27B6628FB171000108CA6 /* ViewController.swift in Sources */,
 				03D27B6228FB171000108CA6 /* AppDelegate.swift in Sources */,
 				03D27B6428FB171000108CA6 /* SceneDelegate.swift in Sources */,
+				03D27B7828FB19B600108CA6 /* SecondViewController.swift in Sources */,
+				03D27B7628FB199400108CA6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
