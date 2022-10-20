@@ -23,10 +23,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
             window.overrideUserInterfaceStyle = UIUserInterfaceStyle.light
             
-            let rootVC = FirstViewController()
-            let navigationController = UINavigationController(rootViewController: rootVC) // 네비게이션 상단바 때문에 생긴 것..
+            let rootVC = PracticeViewController()
+            // let navigationController = UINavigationController(rootViewController: rootVC) // 네비게이션 상단바 때문에 생긴 것..
             
-            window.rootViewController = navigationController
+            window.rootViewController = rootVC
             window.makeKeyAndVisible()
             self.window = window
         }

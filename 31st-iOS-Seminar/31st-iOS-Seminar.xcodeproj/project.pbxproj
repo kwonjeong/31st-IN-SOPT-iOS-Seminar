@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030B5D3A290197A600C79D2D /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5D39290197A600C79D2D /* PracticeViewController.swift */; };
+		030B5D3D290197D700C79D2D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 030B5D3C290197D700C79D2D /* SnapKit */; };
 		03D27B6228FB171000108CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D27B6128FB171000108CA6 /* AppDelegate.swift */; };
 		03D27B6428FB171000108CA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D27B6328FB171000108CA6 /* SceneDelegate.swift */; };
 		03D27B6628FB171000108CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D27B6528FB171000108CA6 /* ViewController.swift */; };
@@ -18,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030B5D39290197A600C79D2D /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		03D27B5E28FB171000108CA6 /* 31st-iOS-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31st-iOS-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D27B6128FB171000108CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D27B6328FB171000108CA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,12 +38,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030B5D3D290197D700C79D2D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030B5D382901972100C79D2D /* 2nd-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				030B5D39290197A600C79D2D /* PracticeViewController.swift */,
+			);
+			path = "2nd-Seminar";
+			sourceTree = "<group>";
+		};
 		037349F028FE2195008F311F /* 1st-Seminar */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +82,7 @@
 		03D27B6028FB171000108CA6 /* 31st-iOS-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				030B5D382901972100C79D2D /* 2nd-Seminar */,
 				037349F028FE2195008F311F /* 1st-Seminar */,
 				03D27B6128FB171000108CA6 /* AppDelegate.swift */,
 				03D27B6328FB171000108CA6 /* SceneDelegate.swift */,
@@ -97,6 +110,9 @@
 			dependencies = (
 			);
 			name = "31st-iOS-Seminar";
+			packageProductDependencies = (
+				030B5D3C290197D700C79D2D /* SnapKit */,
+			);
 			productName = "31st-iOS-Seminar";
 			productReference = 03D27B5E28FB171000108CA6 /* 31st-iOS-Seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 03D27B5528FB171000108CA6;
+			packageReferences = (
+				030B5D3B290197D700C79D2D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 03D27B5F28FB171000108CA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -155,6 +174,7 @@
 				03D27B6628FB171000108CA6 /* ViewController.swift in Sources */,
 				03D27B6228FB171000108CA6 /* AppDelegate.swift in Sources */,
 				03D27B6428FB171000108CA6 /* SceneDelegate.swift in Sources */,
+				030B5D3A290197A600C79D2D /* PracticeViewController.swift in Sources */,
 				03D27B7828FB19B600108CA6 /* SecondViewController.swift in Sources */,
 				03D27B7628FB199400108CA6 /* FirstViewController.swift in Sources */,
 			);
@@ -374,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		030B5D3B290197D700C79D2D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		030B5D3C290197D700C79D2D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030B5D3B290197D700C79D2D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03D27B5628FB171000108CA6 /* Project object */;
 }
